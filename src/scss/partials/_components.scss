@@ -1,0 +1,324 @@
+/* Components */
+.panel {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-color: $gray40;
+  border-radius: 0 !important;
+
+  a {
+    .panel-heading {
+      color: $white;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  .panel-body {
+    padding: 0;
+    padding-bottom: rem-calc(20);
+  }
+}
+
+.panel-heading {
+  a {
+    display: flex;
+    text-decoration: none;
+
+    .panel-title {
+      display: inline-flex;
+      flex-basis: 98%;
+    }
+
+    span {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar-default {
+  .navbar-toggle {
+    border-color: transparent;
+
+    &:hover,
+    &:focus {
+      background-color: $green52;
+
+      .icon-bar {
+        background-color: $white;
+      }
+    }
+  }
+}
+.navbar-default {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top,transparent 0,transparent 100%);
+  background-image: -o-linear-gradient(top,transparent 0,transparent 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+  background-image: linear-gradient(to bottom,transparent 0,transparent 100%);
+
+  -webkit-box-shadow: inset 0 3px 9px transparent;
+  box-shadow: inset 0 3px 9px transparent;
+  border-color: transparent;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top,transparent 0,transparent 100%);
+  background-image: -o-linear-gradient(top,transparent 0,transparent 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+  background-image: linear-gradient(to bottom,transparent 0,transparent 100%);
+
+  -webkit-box-shadow: inset 0 3px 9px transparent;
+  box-shadow: inset 0 3px 9px transparent;
+  color: $white;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+.btn {
+  border-radius: 0;
+  padding: rem-calc(15 20);
+  font-size: 15px;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+}
+
+.btn-visible {
+  background-color: transparent;
+  border: 1px solid $gray75;
+  color: $gray75;
+
+  &:hover {
+    color: $white;
+    background-color: $green52;
+    border-color: transparent;
+  }
+}
+
+.btn-green {
+  background-color: $green52;
+}
+
+.btn-blue {
+  background-color: $blue74;
+}
+
+.play-btn {
+  position: absolute;
+  bottom: 0;
+}
+
+.btn-default {
+  background-color: transparent;
+  color: $blue75;
+  width: 147px;
+
+  text-shadow: none;
+  background-image: -webkit-linear-gradient(top,transparent 0,transparent 100%);
+  background-image: -o-linear-gradient(top,transparent 0,transparent 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#e0e0e0));
+  background-image: linear-gradient(to bottom,transparent 0,transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: $blue75;
+  border-color: $blue75;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: $white;
+    border-color: $white;
+    outline: none;
+  }
+}
+
+// Skin color
+
+.green-skin {
+  color: $green77;
+}
+.gray-skin {
+  background-color: $black23;
+}
+
+.margin-top-none {
+  margin-top: 0 !important;
+}
+
+
+// Dropdown menu
+.dropdown-menu {
+  //display: block;
+  min-width: 320px;
+  top: 0%;
+  background-color: $black24;
+
+  li>a {
+    color: $gray75;
+        padding: rem-calc(10 15);
+  }
+
+  li {
+    border-bottom: 1px solid $black31;
+    &:last-child {
+      border-color: transparent;
+    }
+  }
+}
+
+.breadcrumbs {
+  a {
+    color: $green82;
+  }
+}
+
+// Pagination
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+  margin-right: rem-calc(20);
+  color: $green82;
+}
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+  margin-left: rem-calc(20);
+  color: $green82;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: $gray75;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-left: rem-calc(3);
+  border: none;
+}
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
+  color: $white;
+  background-color: transparent;
+}
+
+// Current link
+.current-menu-item {
+  a {
+    color: $white !important;
+  }
+}
+
+.pagination {
+  .current-menu-item {
+    a {
+      color: $white !important;
+    }
+  }
+}
+
+
+.short-border-bar {
+  height: 3px;
+  width: 50px;
+  background-color: $green52;
+}
+
+.separator-bar {
+  border-bottom: 2px solid $blue30;
+}
+
+.top-border {
+  border-top: 2px solid $blue30;
+  margin-top: rem-calc(40);
+}
+.right-border {
+  border-right: 2px solid $blue30;
+}
+.left-border {
+  border-left: 2px solid $blue30;
+}
+
+.compare-content {
+  padding-top: rem-calc(20);
+}
+
+// Form
+
+textarea {
+  resize: none;
+}
+
+
+// Slick Slider
+
+.feature-tablet__display {
+  .slick-next {
+      right: auto;
+  }
+
+  .slick-prev {
+      left: 452px;
+  }
+
+  .slick-prev, .slick-next {
+  top: auto;
+      bottom: 0;
+      z-index: 10;
+  }
+
+  .slick-dots {
+      bottom: 0;
+      left: -440px;
+      width: 200px;
+
+      li {
+        button:before {
+          font-size: 12px;
+        }
+      }
+  }
+
+  .slick-next:before {
+    content: '\f054';
+  }
+  .slick-prev:before {
+      content: '\f053';
+  }
+  .slick-prev:before, .slick-next:before {
+      font-family: 'fontAwesome';
+      font-size: 35px;
+      color: $black20;
+  }
+}
+
+
+.feature-mobile__display {
+  .slick-dots {
+    bottom: 0;
+    left: 300px;
+    text-align: left;
+    width: 200px;
+
+    li {
+      button:before {
+        font-size: 12px;
+        color: $white;
+      }
+    }
+  }
+}

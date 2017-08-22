@@ -1,0 +1,140 @@
+body {
+  font-family: $DroidSans;
+  font-size: 15px;
+  background-color: $black20;
+  color: $white;
+}
+
+p {
+  color: $gray75;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar-header,
+.navbar-nav,
+.navbar-nav>li {
+  float: none;
+}
+
+.navbar-nav>li {
+  border-bottom: 1px solid $black31;
+
+  &:last-child {
+    border-color: transparent;
+  }
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navigation-bar {
+  background: url("../images/menu-background.png");
+  background-color: $black24;
+  -webkit-box-shadow:inset -3px 0 3px 0 $black;
+  box-shadow:inset -3px 0 3px 0 $black;
+}
+
+.purchase-links {
+  margin: rem-calc(100 0);
+}
+.contact-details {
+  padding: 0;
+  color: $gray75;
+  a {
+    color: $gray75;
+  }
+  .btn {
+    color: $white;
+  }
+  .fa {
+    color: $white;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $gray75;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.enquire-form {
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background-color: $black25;
+  padding: rem-calc(20);
+
+  .close-link {
+    a {
+      color: $gray75;
+      font-family: $Orbitron-bold;
+    }
+  }
+
+  label {
+    font-family: $Orbitron-bold;
+  }
+
+  input,
+  textarea {
+    background-color: $black15;
+    border-color: transparent;
+  }
+
+  input[value="Send enquiry"] {
+    background-color: $green52;
+    color: $white;
+    width: 50%;
+  }
+}
+
+.contact-form {
+  padding: rem-calc(20);
+
+  ul.gform_fields {
+    li {
+      text-indent: 0;
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  .close-link {
+    a {
+      color: $gray75;
+      font-family: $Orbitron-bold;
+    }
+  }
+
+  label {
+    font-family: $Orbitron-medium;
+    margin-bottom: rem-calc(15);
+    color: $white;
+    font-weight: 200;
+  }
+
+  input,
+  textarea {
+    background-color: $black15;
+    border-color: transparent;
+    padding-left: rem-calc(20);
+  }
+
+  input[value="Send enquiry"] {
+    background-color: $green52;
+    color: $white;
+    max-width: 130px;
+    width: 100%;
+    padding-left: rem-calc(8);
+  }
+}

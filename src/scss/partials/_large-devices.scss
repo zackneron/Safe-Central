@@ -1,0 +1,149 @@
+/* Large devices (large desktops, 1200px and up) --------------------------- */
+@media (min-width: $large-devices) {
+  /* Header ---------------------------------------------------------------- */
+  /* code here... */
+
+  .enquire-form {
+    left: 17%;
+  }
+
+  // Dropdown menu
+  .dropdown-menu {
+    left: 105%;
+  }
+
+  .navigation-bar {
+    //min-height: 2808px;
+  }
+
+  /* Content --------------------------------------------------------------- */
+  /* code here... */
+
+  .btn {
+    padding: rem-calc(15 20);
+  }
+
+  // Slick Slider
+  .feature-tablet__display {
+    .slick-next {
+      left: 350px;
+    }
+
+    .slick-prev {
+        left: 35%;
+    }
+
+    .slick-prev, .slick-next {
+      bottom: -45px;
+    }
+
+    .slick-dots {
+      left: 6%;
+      bottom: 45px;
+    }
+  }
+
+  .feature-mobile__display {
+    .slick-dots {
+      left: 212px;
+      //bottom: 0;
+    }
+  }
+
+  .dominator-block {
+    &__content {
+      margin-top: rem-calc(40);
+    }
+  }
+
+  .homepage-testimonial {
+    &__content {
+      margin-top: rem-calc(20);
+    }
+  }
+
+  // Services page
+  .services-item {
+    .info {
+      bottom: -70%;
+
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .range-link {
+    .play-btn {
+      width: 180px;
+    }
+  }
+
+  /* Footer ---------------------------------------------------------------- */
+  /* code here... */
+}
+
+
+@media (min-width: 1500px) {
+
+  .navigation-bar {
+    //min-height: 3041px;
+  }
+
+  .dominator-block {
+    &__content {
+      margin-top: rem-calc(80);
+    }
+  }
+
+  .homepage-testimonial {
+    &__content {
+      margin-top: rem-calc(40);
+    }
+  }
+
+  // Slick Slider
+  .feature-tablet__display {
+    .slick-next {
+      left: 38%;
+    }
+
+    .slick-prev {
+      left: 34%;
+    }
+
+    .slick-prev, .slick-next {
+      top: auto;
+      bottom: -15px;
+    }
+
+    .slick-dots {
+        bottom: -20px;
+        left: 10%;
+    }
+  }
+
+  .feature-mobile__display {
+    .slick-dots {
+      //bottom: 23px;
+      left: 300px;
+    }
+  }
+
+  // Services page
+  .services-item {
+    .info {
+      bottom: -86%;
+
+      h3 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .range-link {
+    .play-btn {
+      width: auto;
+    }
+  }
+}

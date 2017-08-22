@@ -1,0 +1,75 @@
+/* Media Query Screen Sizes ------------------------------------------------ */
+$xsmall-devices: 480px;
+$small-devices: 768px;
+$medium-devices: 992px;
+$large-devices: 1200px;
+
+/* Fonts / Sizes ----------------------------------------------------------- */
+@font-face {
+  font-family: "DroidSans Regular";
+  src: url("../fonts/droid-sans/DroidSans.ttf");
+}
+@font-face {
+  font-family: "DroidSans Bold";
+  src: url("../fonts/droid-sans/DroidSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Orbitron Bold";
+  src: url("../fonts/Orbitron/orbitron-bold.otf");
+}
+@font-face {
+  font-family: "Orbitron Medium";
+  src: url("../fonts/Orbitron/orbitron-medium.otf");
+}
+@font-face {
+  font-family: "Orbitron Light";
+  src: url("../fonts/Orbitron/orbitron-light.otf");
+}
+
+$font-default: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$DroidSans: "DroidSans", $font-default;
+$DroidSans-bold: "DroidSans Bold", $font-default;
+
+$Orbitron-bold: "Orbitron Bold", $font-default;
+$Orbitron-light: "Orbitron Light", $font-default;
+$Orbitron-medium: "Orbitron Medium", $font-default;
+
+$font16: 16px;
+
+
+/* Colors - Naming standardized via www.color-hex.com when appropriate ----- */
+$titan-light-blue: rgb(29, 145, 187);
+$titan-dark-blue: rgb(15, 59, 96);
+$error-red: rgb(204, 0, 0);
+
+$gray13: rgb(33, 33, 33);
+$gray40: rgb(100, 100, 102);
+$gray45: rgb(115, 115, 115);
+$gray60: rgb(153, 153, 153);
+$gray98: rgb(250, 250, 250);
+$gray75: rgb(177, 181, 190);
+
+$black: rgb(0, 0, 0);
+$black15: rgb(35,34,39);
+$black17: rgb(42,42,44);
+$black20: rgb(50,50,51);
+$black23: rgb(59,59,59);
+$black25: rgb(65,65,65);
+$black24: rgb(60,60,60);
+$black31: rgb(80,80,80);
+$black35: rgb(89,89,89);
+
+$blue30: rgb(75, 75, 77);
+$blue74: rgb(20, 139, 189);
+$blue75: rgb(177, 181, 190);
+
+$green52: rgb(2, 132, 130);
+$green77: rgb(27, 196, 193);
+$green82: rgb(82, 210, 208);
+
+$orange88: rgb(224,169,61);
+
+$white: rgb(255, 255, 255);
+
+

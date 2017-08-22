@@ -1,0 +1,216 @@
+/* Medium devices (desktops, 992px and up) --------------------------------- */
+@media (min-width: $medium-devices) {
+  /* Header ---------------------------------------------------------------- */
+  /* code here... */
+
+  .enquire-form {
+    left: 25%;
+  }
+
+  .navbar-default .navbar-collapse {
+    position: relative;
+    background: transparent;
+    width: auto;
+    padding: 0;
+  }
+
+  .navbar-default {
+    background-color: transparent;
+  }
+
+  .navigation-bar {
+    //min-height: 3365px;
+    //height: 100% !important;
+  }
+
+  // Dropdown menu
+  .dropdown-menu {
+    left: 107%;
+  }
+
+  /* Content --------------------------------------------------------------- */
+  /* code here... */
+
+  .btn {
+    padding: rem-calc(10 15);
+  }
+
+  // Slick Slider
+
+  .safe-range-single-item {
+    .slick-prev.slick-arrow,
+    .slick-next.slick-arrow {
+      display: none !important;
+    }
+  }
+
+  .feature-tablet__display {
+    .slick-next {
+      left: 40%;
+    }
+
+    .slick-prev {
+      left: 36%;
+    }
+
+    .slick-dots {
+        bottom: 30px;
+        left: 5%;
+    }
+
+    .slick-next:before {
+      content: '\f054';
+    }
+    .slick-prev:before {
+        content: '\f053';
+    }
+    .slick-prev:before, .slick-next:before {
+        font-family: 'fontAwesome';
+        font-size: 35px;
+        color: $black20;
+    }
+  }
+
+  .feature-mobile__display {
+    .slick-dots {
+      bottom: -35px;
+      left: 170px;
+
+      li {
+        text-indent: 0;
+        &:before {
+          content: none;
+        }
+      }
+    }
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    //margin-top: 0;
+  }
+
+  h1 {font-size: 36px;}
+  h2 {font-size: 30px;}
+  h3 {font-size: 25px;}
+
+  .content-wrap {
+    //padding-right: 0;
+    padding-left: 0;
+  }
+
+  .margin-top-none {
+    margin-top: 0 !important;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .banner-slider__images-wrapper__content {
+    position: absolute;
+  }
+
+  .trailer-video {
+    display: flex;
+    .image-container {
+      margin-right: rem-calc(30);
+      float: none;
+    }
+  }
+
+  .featured-products {
+    padding-bottom: rem-calc(50);
+  }
+
+  .dominator-block {
+    img {
+      top: 0px;
+    }
+  }
+
+  // Services page
+  .services-item {
+    .info {
+      bottom: -61%;
+
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  // Contact page
+  .contact-section {
+    margin-bottom: rem-calc(0);
+    padding-bottom: rem-calc(50);
+  }
+
+  .registration {
+    input[value="Reset"] {
+      margin-left: rem-calc(20);
+    }
+  }
+
+  // FAQs
+  .panel {
+    a {
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .delivery-form {
+    input {
+      width: 60%;
+    }
+  }
+
+  .range-link {
+    .play-btn {
+      width: 100px;
+    }
+  }
+
+  .left-border {
+    border-color: $blue30;
+  }
+  .right-border {
+    border-color: $blue30;
+  }
+
+  .returning-members {
+    padding-top: rem-calc(110);
+    padding-bottom: rem-calc(240);
+
+    h2 {
+      margin-bottom: rem-calc(35);
+    }
+  }
+
+  /* Footer ---------------------------------------------------------------- */
+  /* code here... */
+
+  .pre-footer {
+    &__info {
+      padding-top: rem-calc(75);
+    }
+    &__address {
+      padding-top: rem-calc(115);
+    }
+    .contact-details {
+      padding-left: 0;
+      padding-right: 0;
+      .google-map {
+        height: rem-calc(370);
+      }
+    }
+  }
+
+  .footer__copyright {
+    text-align: left;
+  }
+  .footer__badge {
+    text-align: right;
+  }
+}

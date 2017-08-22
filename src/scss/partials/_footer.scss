@@ -1,0 +1,54 @@
+.pre-footer {
+  color: $blue75;
+  background-color: $black17;
+  h4 {
+    font-size: 20px;
+  }
+  a {
+    color: $blue75;
+  }
+
+  h4,
+  .fa {
+    color: $white;
+  }
+
+  &__info {
+
+  }
+  &__address {
+    div {
+      overflow: hidden;
+    }
+    .fa {
+      //padding-right: 15px;
+      float: left;
+      width: 20px;
+    }
+    span {
+      float: left;
+      width: calc(100% - 40px);
+      margin-bottom: 0;
+      margin-left: rem-calc(15);
+    }
+  }
+  .contact-details {
+    line-height: 0;
+    .google-map {
+      margin-top: 0;
+      height: rem-calc(370);
+      width: 100%;
+      border: 0;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+  }
+}
+
+.map {
+  .contact-details {
+    .google-map {
+      margin-top: 0;
+    }
+  }
+}
